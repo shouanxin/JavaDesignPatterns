@@ -4,7 +4,7 @@
  * Created by shouax on 2019/4/7 12:42.
  */
 
-package com.anxin.design.pattern.singleton;
+package com.anxin.design.pattern.creational.singleton;
 
 /**
  * 〈饿汉式——写法1 通过静态域初始化〉.
@@ -14,17 +14,17 @@ package com.anxin.design.pattern.singleton;
  * @author: shouanxin
  * @date: 2019/4/7
  */
-public class SingletonDemo5 {
+public class HungrySingleton {
     // 1.构造函数私有化
-    private SingletonDemo5(){
+    private HungrySingleton(){
 
     }
 
     // 2.定义静态变量
-    private static SingletonDemo5 singletonDemo = new SingletonDemo5();
+    private static HungrySingleton singletonDemo = new HungrySingleton();
 
     // 3.定义初始化方法
-    public static SingletonDemo5 getInstance() {
+    public static HungrySingleton getInstance() {
         return singletonDemo;
     }
 }

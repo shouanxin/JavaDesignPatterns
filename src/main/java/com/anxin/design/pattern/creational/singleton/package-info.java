@@ -6,4 +6,4 @@
  * @author: shouanxin
  * @date: 2019/4/7
  */
-package com.anxin.design.pattern.singleton;
+package com.anxin.design.pattern.creational.singleton;
